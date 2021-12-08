@@ -133,7 +133,7 @@ class Preprocessor:
                 ],
             }
             f.write(json.dumps(stats))
-       with open(os.path.join(self.stats_path, "stats.json"), "w") as f:
+        with open(os.path.join(self.stats_path, "stats.json"), "w") as f:
             f.write(json.dumps(stats))
         print(
             "Total time: {} hours".format(
